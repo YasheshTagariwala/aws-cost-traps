@@ -144,6 +144,13 @@ program
     writeFileSync(outputPath, sections.join("\n"));
     console.log(`\nReport saved to ${outputPath}`);
     console.log(`Estimated monthly waste: $${totalWaste.toFixed(2)}`);
+    console.log(
+      "\n----------------------------------------------------------------\n" +
+        "Was this useful? A GitHub star or an issue tells me what to build\n" +
+        "next — I read every one.\n" +
+        "https://github.com/YasheshTagariwala/aws-cost-traps\n" +
+        "----------------------------------------------------------------"
+    );
   });
 
 program.parseAsync().catch((err) => {
