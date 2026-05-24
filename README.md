@@ -40,7 +40,7 @@ scan alone would miss.
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aws-cost-traps.git
+git clone https://github.com/YasheshTagariwala/aws-cost-traps.git
 cd aws-cost-traps
 npm install
 node src/cli.js --region us-east-1
