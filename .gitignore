@@ -1,0 +1,4 @@
+node_modules/
+cost-trap-report-*.md
+.env
+.DS_Store
